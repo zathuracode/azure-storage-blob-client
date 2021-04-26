@@ -16,7 +16,7 @@
       	https://docs.microsoft.com/en-us/learn/paths/store-data-in-azure/
        -->
      <bean class="com.vortexbird.azure.storage.blob.VortexAzureCredentials" id="vortexAzureCredentials">
-     	<property name="azureStorageConnectionString" 	value="DefaultEndpointsProtocol=https;AccountName=vortexsprbun;AccountKey=+zoS0JD8nswOveZdvO5ruOonkX9uKcgWA+i2xkYI+KDD20xz2Zr/4psGqw6qJo43TtCGKyORFuq/xGEyESp/wA==;EndpointSuffix=core.windows.net"/>     	
+     	<property name="azureStorageConnectionString" 	value=""/>     	
      </bean>
 
 	<context:component-scan base-package="com" scoped-proxy="interfaces" />
